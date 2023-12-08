@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  verbose="10">
+<listeners>
+  
+   <listener class-name="com.listeners.MyListener" />
+  <listener class-name="com.listeners.SetRetry" />
+</listeners>
+  <test name="Test">
+    <classes>
+      
+      <class name="com.test.TestNgEx"/>
+      
+    </classes>
+  </test> 
+  
+</suite> 
