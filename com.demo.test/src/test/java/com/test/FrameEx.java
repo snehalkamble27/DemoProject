@@ -17,6 +17,7 @@ public class FrameEx {
          WebDriver driver=new ChromeDriver();
          driver.get("https://www.redbus.in/");
          driver.manage().window().maximize();
+        // driver.
          
          
         //implictly wait :- it will work on each webElement on browser
